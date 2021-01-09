@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Hjemmeside.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Portfolio</title>
+                <meta lang="da">
+</head>
+    <body>
+        <header class="header">
+            <a href="Hjemmeside.html" class="logo">Nicklas</a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+            <ul class="menu">
+                <li><a href="Morten.html">Morten</a></li>
+                <li><a href="Carsten.html">Carsten</a></li>
+                <li><a href="Niels.html">Niels</a></li>
+            </ul>
+        </header>
+
+<header>
+  <h2 class="h2e">HTML og CSS</h2>
+</header>
+
+<section>
+  <article>
+    <h2 class="Pad">Niels Undervisning</h2>
+    <h1 class="h1p">Introduktion til HTML og CSS</h1>
+    <p class="PH">HTML er et kode sprog, som har mange formål, men 1.Semester på Dania har vi brugt HTML og CSS til at skabe hjemmesider og bruge koden i praksis, med bl.a. fremlæggelser afleveringer mm. 
+<br><br>
+    Når man arbejder i HTML, skal man altid gå ud fra mobile first tankegangen, for at holde god kodeskik og samtidigt sørge for et bedre design når man lige så stille går videre i processen fra mobile til tablet og derefter desktop. Hvilket man bl.a. også bruger wireframing til for at skabe et overblik.<br><br> 
+</p>
+    <h1 class="h1p">Semantiske Tags og Selectors</h1>  
+    <p class="PH">Semantiske tags er det der fortæller noget om indholdet. Semantiske tags kan anvendes af både mennesker og maskiner. Semantiske tags søger også for at søgemaskinerne giver bedre resultater altså SEO. Nogle eksempler på semantiske tags kunne bl.a. være: aside> footer> nav> section> og header>, hvert tag har deres egen funktion og søger for noget forskelligt. footer> er bl.a. der hvor det mest relevante information ligger fast i bunden af en hjemmeside. 
+Et eksempel på tags i brug kunne være: <br>(Selvfølge = html>, meta charset=”uft-8”>)
+header><br>
+   h1> Hej med jer lære! I ser da skarpe ud i dag. /h1><br>
+nav> <br>
+      ul><br>
+         li> Lære at binde et slips /li><br>
+      /ul><br>
+   /nav> 	<br>
+/header><br>
+/html><br>
+
+      
+    En selector er den funktion der vælger noget bestemt. Det vil sige hvilket element vi ligesom vælger at arbejde med. 
+      
+    <p class="PH">For at angive hvad vi er i gang med at arbejder med, vil vi bruge ”*” i vores stylesheet/CSS (alt efter om vi arbejder med Class, eller id). Bruger vi derimod id vil vi bruge ”#” for at angive hvad vi arbejder med i vores stylesheet/CSS, altså når vi referer det til vores CSS del. 
+Et eksempel kunne være:
+<br><br>
+(HTML) footer Id=”?”> 
+<br><br>
+(CSS) #? {
+}<br><br>
+(HTML) footer Class=”?”> 
+<br><br>
+(CSS) *? {
+} <br><br>
+(i Class tilfælde kan man også bruge ”.” for at angive udvalgte) 
+</p>
+      
+    <p class="PH">CSS eller Cascading Style Sheet er kodningen der angiver designet på den repræsenterede hjemmeside der kodes på (altså, det beskriver dens udseende eller styling). Et stylesheet er også en samling af regler (rules), som bestemmer hvordan noget skal styles. Et @media(queries) er en regel i CSS. Styles, angives som rules og kan navngives og refereres i HTML.<br><br></p>
+    <h1 class="h1p">For at give nogle eksempler kan man i et stylesheet bruge rigtig mange forskellige former for styles:</h1>
+    <p class="PH">-	Farver (RGB, HEX-kode eller HSL) <br>
+    -	Fonts(-family), Serif, Sans Serif, Italic etc. <br>
+    -	Layout former <br>
+    -	Media Queries (en del af at lave responsiv design, hvilket også kan kaldes et breakpoint. Et breakpoint er den bredde hvor en regel overtager fra en anden, hvor responsive websider typisk har mindst to og gerne flere breakpoints) <br>
+    -	Width, height <br><br>
+        
+    <h1 class="h1p">Hvad er versionsstyring? og hvad bruger man det til?</h1>
+    <p class="PH">Versionsstyring er til for bl.a. at undgå fejl og ligesom kunne tage tilbage hvis der alligevel skulle forekomme nogle fejl.<br> 
+-	Man kan holde styr på flere projekter på samme tid. <br>
+-	For at forkorte sit arbejde og gøre det lidt lettere til tider kan det også være en god mulighed at samme elementer laves i forskellige versioner. <br>
+-	Sidst men ikke mindst, er det også til at kunne dele sit arbejde for lettere at kunne samarbejde med andre. <br><br>
+</p>
+        
+    <h1 class="h1p">Begreber inden for version styring som er relevante: </h1>        
+    <p class="PH">-	Repository - Ens filer samlet i en mappe. <br>
+-	Branch - En kopi af ens repo, som ikke påvirker noget andet arbejde der er lavet. <br>
+-	Commit - En revision er der hvor man gemmer sit arbejde med det der er lavet op til det punkt, hvorefter man så kan gå tilbage hvis der efterfølgende er sket nogle fejl. <br>
+-	Pull Request - Er et automatisk forslag den kommer med til rettelser. <br>
+-	Diff - Er en forskel på to commits. <br>
+-	Merge - Vil sige at man ændrer noget i en mappe og samler det med en anden. <br>
+-	Pull - Er når man henter sine ændringer og merger dem med det igangværende arbejde. <br>
+</p>    
+    <p class="PH">PHP er det mest dynamiske sprog til websider. PHP står for Hypertext Preprocessor. 
+Typiske fejl ved PHP: <br>
+-	Glemmer at uploade filen efter du har rettet. <br>
+-	Forsøger at afvikle PHP kode i en HTML-fil. <br>
+-	Semikolon. <br>
+-	Uorden i skift mellem PHP og HTML<br><br>
+
+a)	Versionsstyring er vigtigt når man arbejder flere folk om det samme projekt fx en hjemmeside. Her kan vi bruge programmer som github. <br>
+b)	Git er et versionsstyringssystem lavet af Linus Torvalds. Github er et website eller med andre ord en server. <br>
+c) Først skal man oprette et repository, man skal derefter lave en kopi af sine filer og lægger dem ind i den mappe der opstod da man lavede sit repository. Herfra kan vi lave vores retninger, commits, delinger til andre ved bl.a. at gøre den publish så andre med linket kan dele eller delvis rette i github. 
+<br><br>
+d)	Del 2: Deling af kode, man kan kalde det et SoMe for folk som koder eller et portfolio for kode. Flere Open Source-projekter bliver hostet der. Hvis det er delt, kan man hente flere store eller små brøkdele af koder til egen projekt. <br>
+e)	Del 3: Collaborate coding, product management, team administration. 
+<br>Gruppe makker: Sebastian Haubo
+    <br>         
+</p>
+      
+  </article>
+</section>
+        
+<section>
+  <article>  
+      <h1 class="h1p">Hvad er SVG? Scalable Vector Graphics (skalerbare vektorgrafikker)</h1>
+<p class="PH">
+SVG er et billede format udviklet af World Wide Web (W3C) i 1998 hvor det blev accepteret som en åben standart i 1999. Det er et (Extensible Markup Language) XML-baseret vektorformat til todimensionelle grafikker. Det er også muligt at lave både statiske SVG-filer og animerede. Fordi en SVG-fil består af kode har den opbygningsmæssigt mere tilfælles med en hjemmeside end den har med andre billede formater som f.eks. JPG eller PNG. 
+<br><br>
+SVG filer kan fylde mindre! Når man arbejder med grafikker der skal kunne vises i en større format fra device til device, kan ens filstørrelse hurtig blive stor, hvilket bidrager til at hjemmesiden kan gå hen og blive langsommere. Det gode ved SVG filer er dog at de forbliver samme (fil)størrelse uanset om du skal vise dem som store eller små, netop fordi de er XML-baserede. Derfor er det også godt at bruge SVG filer da det er med til at optimere din hjemmeside til at loade hurtigere. 
+<br><br>
+SVG filerne er dog ikke altid mindre end PNG eller JPG men går man hen og skal bruge små grafikker kan man komme ud i at PNG eller JPG filen er mindre end SVG filen. Derfor kommer det hele ned til hvad den største visning af en grafik skal være, hvilket afgøre filtypen der fylder det mindste. 
+<br><br>
+Hvordan laver man en SVG-fil? Det gør man i de programmer man normalt laver vektorgrafik i. Du ville sagtens kunne gemme din grafik i en SVG-format i f.eks. Adobe Illustrator. 
+<br><br>
+I hvilke tilfælde skal man ikke bruge SVG filer? SVG er vektorgrafik og derfor skalerbart, det kan vise former og farver helt fint. Derfor bør du ikke bruge SVG til bitmap elementer, så som når det kommer til et helt normalt foto. Dem kan man ikke bare skalere op og ned på uden at de mister kvalitet. Her er det så smart at bruge JPG, eller PNG filer hvis billedet indeholder transparente elementer (f.eks. baggrund)<br><br></p>
+      
+<h1 class="h1p">At arbejde med SVG i praksis. </h1>
+
+<p class="PH">Fordelen ved at bruge SVG filer på ens hjemmesider er at brugerne kan forstørre et SVG-billede på skærmen, uden at det går ud over skarphed og detaljer. Derudover giver SVG bedre understøttelse af tekst og farver så brugerne ser billederne, som de vises på tegnebrættet i illustrator. 
+<br><br>
+SVG-formater er XML (Extensible Markup Language) - baseret og giver både udviklere og brugere mange fordele. Med SVG kan man bruge XML og JavaScript til at oprette webgrafik, som reagerer på brugerhandlinger som f.eks. kunne være animation. Arbejder man i illustrator kan man på mange måder gemme sin GIF animation eller andre SVG filer ved at bruge kommandoen ”gem som” eller ”gem til web og enheder”. <br><br>Hvis du vil have adgang til det samlede sæt af SVG-eksportindstillinger, skal du bruge kommandoen Gem, Gem som eller Gem en kopi. Kommandoen Gem til web og enheder indeholder et undersæt af SVG-eksportindstillinger, som kan bruges til webrelateret arbejde.
+<br><br>
+Det endelige arbejde på SVG-filen påvirkes af opsætningen af illustrationen i illustrator. Så vær opmærksom på følgende! 
+<br><br>•	Brug lag til at føje struktur til en SVG-fil. Når du gemmer illustrationer i SVG-format, konverteres hvert lag til et gruppeelement (g). (Et lag med navnet Knap1 bliver f.eks. til g id="Knap1_ver3.0" i SVG-filen). Indlejrede lag bliver til SVG-indlejrede lag, og skjulte lag bevares med SVG-formateringsindstillingen display="none".
+<br><br>
+Man kan bruge SVG-effekter til at tilføje grafikegenskaber, f.eks. skyggeeffekter i illustrationen. De SVG-effekter der bliver tillagt, bliver adskilt fra de tilsvarende bitmap effekter fordi den er XML-baseret og opløsningsuafhængig. SVG-effekter er faktisk ikke andet end en række XML-egenskaber, der beskriver forskellige matematiske funktioner. 
+<br><br>
+I f.eks. illustrator findes der et standartsæt SVG-effekter, for at ændre i disse standardegenskaber, skal man redigere i XML-koden for at oprette sine brugerdefinerede effekter. </p>
+<br><br>
+<p class="PH">SVG filer er lavet i et XML-tekstbaseret kodeformat. Det betyder at de i grove træk er fremstillet/opbygget af tekst, i modsætning til de mere normale billede formater PNG, JPG, GIF, som består af pixels og derfor vil miste kvalitet hvis de bruges i et større format, end hvad de oprindeligt blev skabt til. </p>
+
+
+      
+  </article>
+</section>
+        
+<section>
+  <article>        
+
+<p class="PH">Kildeliste til Niels forløb: <br><br>
+Introduktion til HTML, (MMD 2020, Dania Skive, Moodle)
+<a href="https://eadania.mrooms.net/course/view.php?id=2649#section-3 ">Section-3</a>
+<br><br>
+Internettets historie + serverbegrebet, (MMD 2020, Dania Skive, Moodle)
+<a href="https://eadania.mrooms.net/course/view.php?id=2649#section-4 ">Section-4</a>
+<br><br>
+Introduktion til CSS, (MMD 2020, Dania Skive, Moodle)
+<a href="https://eadania.mrooms.net/course/view.php?id=2649#section-5 ">Section-5</a>
+<br><br>
+Responsive Design + CSS grid, (MMD 2020, Dania Skive, Moodle)
+<a href="https://eadania.mrooms.net/course/view.php?id=2649#section-6 ">Section-6</a>
+<br><br>
+Versionsstyring, (MMD 2020, Dania Skive, Moodle)
+<a href="https://eadania.mrooms.net/course/view.php?id=2649#section-10 ">Section-10</a>
+<br><br>
+HTML og CSS workshop, (MMD 2020, Dania Skive, Moodle)
+<a href="https://eadania.mrooms.net/course/view.php?id=2649#section-16">Section-16</a>
+<br><br>
+Serverside Scripting + frameworks, (MMD 2020, Dania Skive, Moodle)
+<a href="https://eadania.mrooms.net/course/view.php?id=2649#section-19">Section-19</a> <br><br>
+Af: LASSE BAUNGAARD, DIGITYPES (1.SIDE)
+<a href="https://digitypes.dk/hvad-er-svg-filer/ ">DIGITYPES</a> <br><br>  
+Udgivet 13. marts 2018, AF: Adobe /
+<a href="https://helpx.adobe.com/dk/illustrator/using/svg.html ">SVG</a> <br><br>      
+      </p>
+
+  </article>
+</section>
+        
+<footer>
+  <p>Hjemmeside lavet af Nicklas Hedegaard <br>All RIGHTS RESERVED &copy;</p>
+</footer>    
+
+    </body>
+</html>
